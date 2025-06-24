@@ -1,5 +1,4 @@
 # LendingClub_Risk_Analysis
-This study utilizes a Naïve Bayes Classification model and a Nearest Neighbor model to perform risk analysis on accepted and rejected LendingClub loans. 
 
 LendingClub is a financial service company specializing in personal loans, business loans, auto loan refinancing, and banking solutions. Founded in 2007, LendingClub has helped over 5 million customers consolidate debt, pay off credit cards, and borrow money for "almost any purpose". 
 
