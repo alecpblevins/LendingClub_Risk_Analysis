@@ -1,0 +1,94 @@
+Column Name,Definition
+id,Unique identifier for the loan.
+loan_amnt,The amount of money the borrower applied for.
+funded_amnt,The total amount committed to the loan by investors.
+funded_amnt_inv,The portion of the loan funded by the investor.
+term,"The length of the loan (e.g., 36 or 60 months)."
+int_rate,Interest rate on the loan.
+installment,Monthly payment owed by the borrower.
+grade,"Loan grade assigned by the platform (A–G), reflects creditworthiness."
+sub_grade,More granular risk segmentation within grades (A1–G5).
+emp_title,Job title of the borrower.
+emp_length,Number of years the borrower has been employed.
+home_ownership,"Borrower's home ownership status (RENT, OWN, MORTGAGE, etc.)."
+annual_inc,Annual income of the borrower.
+verification_status,"Whether income was verified (Verified, Not Verified, etc.)."
+issue_d,The month the loan was issued.
+loan_status,"Current status of the loan (Fully Paid, Charged Off, etc.)."
+pymnt_plan,Whether the borrower is on a payment plan.
+url,URL for the listing page (often blank or anonymized).
+purpose,"Reason for the loan (e.g., credit_card, debt_consolidation)."
+title,Borrower-provided title for the loan.
+zip_code,First 3 digits of the borrower's ZIP code.
+addr_state,U.S. state provided by the borrower.
+dti,Debt-to-income ratio: borrower's monthly debt payments / monthly income.
+delinq_2yrs,Number of 30+ days past-due incidences in the past 2 years.
+earliest_cr_line,Date of the borrower's oldest credit line.
+fico_range_low,Lower bound of the borrower's FICO score at loan time.
+fico_range_high,Upper bound of the borrower's FICO score.
+inq_last_6mths,Number of credit inquiries in the past 6 months.
+open_acc,Number of open credit lines in the borrower’s credit file.
+pub_rec,"Number of derogatory public records (bankruptcies, etc.)."
+revol_bal,"Total credit revolving balance (e.g., credit card balances)."
+revol_util,Revolving line utilization rate (credit used / credit available).
+total_acc,Total number of credit accounts.
+initial_list_status,"The initial listing status of the loan (w = whole loan, f = fractional)."
+out_prncp,Remaining outstanding principal for the loan.
+out_prncp_inv,Remaining outstanding principal funded by investors.
+total_pymnt,Total amount received to date (principal + interest).
+total_pymnt_inv,Total amount received by investors to date.
+total_rec_prncp,Total principal repaid.
+total_rec_int,Total interest received.
+total_rec_late_fee,Total late fees received.
+recoveries,Post-default recoveries from collection efforts.
+collection_recovery_fee,Fees collected from recovery efforts.
+last_pymnt_d,Date of last payment.
+last_pymnt_amnt,Amount of the last payment.
+last_credit_pull_d,Most recent credit report pull date.
+last_fico_range_high,Highest FICO score range reported recently.
+last_fico_range_low,Lowest FICO score range reported recently.
+collections_12_mths_ex_med,Number of collections in last 12 months excluding medical.
+policy_code,"Policy code (1 = new policy, 2 = old policy)."
+application_type,Individual or joint application.
+acc_now_delinq,Number of accounts currently delinquent.
+tot_coll_amt,Total amount of collections ever.
+tot_cur_bal,Total current balance across all accounts.
+total_rev_hi_lim,Total revolving high credit/credit limit.
+acc_open_past_24mths,Number of accounts opened in the past 24 months.
+avg_cur_bal,Average current balance of all accounts.
+bc_open_to_buy,Revolving bankcard lines available to use.
+bc_util,Bankcard utilization ratio.
+chargeoff_within_12_mths,Number of charge-offs in the past 12 months.
+delinq_amnt,Total delinquent amount owed.
+mo_sin_old_il_acct,Months since oldest installment account opened.
+mo_sin_old_rev_tl_op,Months since oldest revolving account opened.
+mo_sin_rcnt_rev_tl_op,Months since most recent revolving account opened.
+mo_sin_rcnt_tl,Months since most recent account opened.
+mort_acc,Number of mortgage accounts.
+mths_since_recent_bc,Months since most recent bankcard account opened.
+mths_since_recent_inq,Months since most recent credit inquiry.
+num_accts_ever_120_pd,Number of accounts ever 120+ days past due.
+num_actv_bc_tl,Number of currently active bankcard accounts.
+num_actv_rev_tl,Number of active revolving accounts.
+num_bc_sats,Number of satisfactory bankcard accounts.
+num_bc_tl,Total number of bankcard accounts.
+num_il_tl,Number of installment accounts.
+num_op_rev_tl,Number of open revolving accounts.
+num_rev_accts,Number of revolving accounts.
+num_rev_tl_bal_gt_0,Number of revolving accounts with a balance.
+num_sats,Number of satisfactory accounts.
+num_tl_120dpd_2m,Number of accounts 120+ days overdue in the last 2 months.
+num_tl_30dpd,Number of accounts currently 30+ days overdue.
+num_tl_90g_dpd_24m,Number of accounts 90+ days overdue in the last 24 months.
+num_tl_op_past_12m,Number of trades opened in the past 12 months.
+pct_tl_nvr_dlq,Percent of trades never delinquent.
+percent_bc_gt_75,Percent of bankcards over 75% utilized.
+pub_rec_bankruptcies,Number of public record bankruptcies.
+tax_liens,Number of tax liens.
+tot_hi_cred_lim,Total high credit/credit limit across all accounts.
+total_bal_ex_mort,Total current balance excluding mortgages.
+total_bc_limit,Total bankcard credit limit.
+total_il_high_credit_limit,Total high credit on installment accounts.
+hardship_flag,Indicates if the borrower is on a hardship plan.
+disbursement_method,"Method of loan disbursement (Cash, etc.)."
+debt_settlement_flag,Indicates if the borrower is involved in debt settlement.
