@@ -11,7 +11,19 @@ Additionally, we can predict if a loan request will be approved or declined by u
 
 Source: LendingClub. “Personal Loan.” LendingClub. https://www.lendingclub.com/personal-loan
 
-Contents: 
+
+# STEP BY STEP GUIDE: 
+
+Before diving in, please download the required .csv files: 
+- "lendingclub_column_definitions.csv"
+- "accepted_2007_to_2018Q4.csv" (Found in the Google Drive Folder)
+- "rejected_2007_to_2018Q4.csv" (Found in the Google Drive Folder)
+
+After downloading the necessary .csv files, download and open "Blevins, Alec - LendingClub Risk Analysis.ipynb"
+
+Follow along and enjoy! 
+
+# Contents: 
 
 - Cover & Importing Our Data
 - Part 1: Naïve Bayes Classification for Defaulting and Charged Off Loans
@@ -26,4 +38,5 @@ Contents:
     - Nearest Neighbor Algorithm Implementation
     - K-Fold Cross Validation
     - Part 2: Summary
-- Conclusion 
+- Conclusion
+
